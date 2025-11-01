@@ -404,7 +404,7 @@ const initEmailJs = () => {
     const form = document.getElementById('contact-form');
     const submitButton = form ? form.querySelector('button[type="submit"]') : null;
 
-    if (form) {
+  if (form) {
         form.addEventListener('submit', function(event) {
             event.preventDefault();
 
@@ -433,6 +433,7 @@ const initEmailJs = () => {
         });
     }
 };
+
 
 
 // =================================================================
